@@ -3,7 +3,7 @@ from django.shortcuts import get_object_or_404, render
 # Create your views here.
 
 from django.http import Http404
-
+from django.http import HttpResponse
 from .models import Question
 
 def index(request):
