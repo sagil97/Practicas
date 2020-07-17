@@ -7,11 +7,21 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1504.84">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #bc7a00; -webkit-text-stroke: #bc7a00}
-    span.s1 {font-kerning: none}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #19177c; -webkit-text-stroke: #19177c}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #0c4b33; -webkit-text-stroke: #0c4b33}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #008000; -webkit-text-stroke: #008000}
+    span.s1 {font-kerning: none; color: #0c4b33; -webkit-text-stroke: 0px #0c4b33}
+    span.s2 {font-kerning: none; color: #008000; -webkit-text-stroke: 0px #008000}
+    span.s3 {font-kerning: none; color: #bc7a00; -webkit-text-stroke: 0px #bc7a00}
+    span.s4 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">{{ question }}</span></p>
+<p class="p1"><span class="s1">&lt;</span><span class="s2"><b>h1</b></span><span class="s1">&gt;</span><span class="s3">{{</span><span class="s1"> </span><span class="s4">question.question_text</span><span class="s1"> </span><span class="s3">}}</span><span class="s1">&lt;/</span><span class="s2"><b>h1</b></span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s4">&lt;</span><span class="s2"><b>ul</b></span><span class="s4">&gt;</span></p>
+<p class="p1"><span class="s3">{%</span><span class="s1"> </span><span class="s2"><b>for</b></span><span class="s1"> </span><span class="s4">choice</span><span class="s1"> </span><span class="s2"><b>in</b></span><span class="s1"> </span><span class="s4">question.choice_set.all</span><span class="s1"> </span><span class="s3">%}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2"><b>li</b></span><span class="s1">&gt;</span><span class="s3">{{</span><span class="s1"> </span><span class="s4">choice.choice_text</span><span class="s1"> </span><span class="s3">}}</span><span class="s1">&lt;/</span><span class="s2"><b>li</b></span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s3">{%</span><span class="s1"> </span><span class="s4"><b>endfor</b></span><span class="s1"> </span><span class="s3">%}</span></p>
+<p class="p2"><span class="s4">&lt;/</span><span class="s2"><b>ul</b></span><span class="s4">&gt;</span></p>
 </body>
 </html>
