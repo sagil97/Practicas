@@ -2,7 +2,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,osx,django,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,osx,django,python
 
-.DS_Store
+*.DS_Store
 ### Django ###
 *.log
 *.pot
