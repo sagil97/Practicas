@@ -6,6 +6,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,osx,django,python
 
 *.DS_Store
+
+tutorial-env/
 ### Django ###
 *.log
 *.pot
