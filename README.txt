@@ -1,6 +1,6 @@
 
-python3 -m venv tutorial-env
+python3 -m venv env
 
-source turorial-env/bin/activate
+source env/bin/activate
 
 python manage.py runserver

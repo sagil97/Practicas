@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> d62643c0df3aa438c1e6829fc55434c989e6715f
 # Created by https://www.toptal.com/developers/gitignore/api/macos,osx,django,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,osx,django,python
 
 *.DS_Store
 
-tutorial-env/
 ### Django ###
 *.log
 *.pot
